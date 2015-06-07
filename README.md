@@ -29,7 +29,7 @@ But then we realized that digital life really reflects our real lives, in many w
 
 ## Behaviors of objects
 
-So, today we have objects, which have behaviors and attributes associated with them. Think of them as a set of related functions (methods) and properties, that as a human being, we can make sense of. We "encapsulate" (think: box up) all of these related methods and properties in one place, and then give it a name, the name of the object. The box we keep all of these methods and properties in is our Class. It serves as the instruction manaul or factory to create a specific type of object.
+So, today we have objects, which have behaviors and attributes associated with them. Think of them as a set of related functions (methods) and properties, that as a human being, we can make sense of. We "encapsulate" (think: box up) all of these related methods and properties in one place, and then give it a name, the name of the object. The box we keep all of these methods and properties in is our Class. It serves as the instruction manual or factory to create a specific type of object.
 
 Think about it. Let's take a `Car` class as an example. A `Car` has attributes (aka properties) such as its `color` and its `make` and `model` and `year` and `numberOfDoors`. It also has behaviors (aka methods). Its engine can be turned on and off. It can accelerate and brake. And it can signal the direction it is turning (well, perhaps with the help of its driver object.) The combination of all of this information in one place defines a `Car`. This is the `Car` class, with which we can make `Car` objects (also known as instances).
 
@@ -283,7 +283,7 @@ If you place a method or property in your `.h` file, it will be "public", visibl
 @end
 ```
 
-If you place a method or property in your `.m` file, it will be "private", and only visible to other users of the class in which those methods and/or properties are defined. Just an aside: Methods and properties defined in your .m are not actually unavailable to a third party; however, they do not announce themselves either. Someone who really wanted to know what the insides of your classes looked like could get in their and check out your classes' innards. (In fact, programmers do this regularly with Apple's proprietary Cocoa framework!) 
+If you place a method or property in your `.m` file, it will be "private", and only visible to other users of the class in which those methods and/or properties are defined. Just an aside: Methods and properties defined in your .m are not actually unavailable to a third party; however, they do not announce themselves either. Someone who really wanted to know what the insides of your classes looked like could get in there and check out your classes' innards. (In fact, programmers do this regularly with Apple's proprietary Cocoa framework!) 
 
 ######Example
 ```objc
